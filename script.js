@@ -18,3 +18,10 @@ let font = document.querySelector('#font');
   example1h1.style.fontFamily = font.value;
   
 });
+let range = document.querySelector('#font-size');
+
+  range.addEventListener('input', function(event){
+  example1h1.style.fontSize = range.value + 'px';
+  
+});
+
